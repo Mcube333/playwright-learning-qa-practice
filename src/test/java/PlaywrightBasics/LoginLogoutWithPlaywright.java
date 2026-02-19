@@ -8,14 +8,14 @@ import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
 import com.microsoft.playwright.assertions.PlaywrightAssertions;
 
-public class LoginLogoutTest {
+public class LoginLogoutWithPlaywright {
 
 	public static void main(String[] args) {
 
 		Browser browser = null;
 		Page newpage = null;
 		try {
-			browser = Playwright.create().chromium().launch(new BrowserType.LaunchOptions().setHeadless(false).setSlowMo(500));
+			browser = Playwright.create().chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
 			
 			//browser = Playwright.create().firefox().launch(new BrowserType.LaunchOptions().setHeadless(false));
 			

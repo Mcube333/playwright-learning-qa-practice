@@ -5,7 +5,7 @@
     <classes>
       <class name="PlaywrightBasics.LoginLogoutWithTestNG">
         <methods>
-          <include name="LoginLogoutTest"/>
+          <include name="LoginWithIncorrectPassword"/>
         </methods>
       </class> <!-- PlaywrightBasics.LoginLogoutWithTestNG -->
     </classes>

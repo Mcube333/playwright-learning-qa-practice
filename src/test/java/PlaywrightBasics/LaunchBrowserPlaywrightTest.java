@@ -5,9 +5,12 @@ import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
 
-public class FirstPlaywrightTest {
+public class LaunchBrowserPlaywrightTest {
 
 public static void main(String[] args) {
+	
+	/* This is the first test case which is used to launch the browser and navigate to the URL and get the title of the page 
+	 * and print it in the console and then close the browser. */
 
   	Playwright playwright = Playwright.create();
   	
